@@ -1,0 +1,2 @@
+BOOTLOADER = qmk-dfu
+ENCODER_ENABLE = yes
