@@ -308,13 +308,13 @@ bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
 }
 */
 
-int RGB_current_mode;
-bool led_update_user(led_t led_state) {
-    if (led_state.caps_lock) {
-        RGB_current_mode = rgblight_config.mode;
-        rgblight_sethsv(0, 255, 180);
-    } else {
-        rgblight_mode(RGB_current_mode); 
-    }
-    return true;
-}
+// int RGB_current_mode;
+// bool led_update_user(led_t led_state) {
+//     if (led_state.caps_lock) {
+//         RGB_current_mode = rgblight_config.mode;
+//         rgblight_sethsv(0, 255, 180);
+//     } else {
+//         rgblight_mode(RGB_current_mode); 
+//     }
+//     return true;
+// }

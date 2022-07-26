@@ -35,5 +35,5 @@
 // #define PERMISSIVE_HOLD_PER_KEY
 
 #define RGB_DI_PIN F6
-#define RGBLED_NUM 11
+//#define RGBLED_NUM 11
 
